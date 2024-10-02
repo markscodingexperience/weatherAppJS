@@ -18,8 +18,6 @@ async function getDataFromWeatherAPI(city) {
             throw new Error("Network response is not ok" + response.statusText);
         
         const data = await response.json();
-        console.log(data);
-        console.log(data.current.condition.text);
 
         if(data.current.condition.text.includes("cloudy") || data.current.condition.text.includes("Cloudy")) //change the icon based on text
             weatherIcon.src = "icons/cloud.png";
