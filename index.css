@@ -135,12 +135,11 @@ input {
 
   .footerText {
     font-size: 12px;
+  
   }
-}
-
-@media only screen {
   #datetime {
     margin-top: 15px;
-  }
+}
+
 
 }
