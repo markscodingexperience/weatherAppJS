@@ -136,6 +136,6 @@ input {
 
 @media only screen {
   #datetime {
-    padding-top: 15px;
+    margin-top: 15px;
   }
 }
