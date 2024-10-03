@@ -75,7 +75,6 @@ input {
 .body {
     display: grid;
     margin:auto;
-    height: 30vh;
 }
 
 .bodyText {
